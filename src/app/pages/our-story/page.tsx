@@ -31,7 +31,7 @@ const OurStory = () => {
                 From humble beginnings, Fair Queen started as a passion project
                 run from a modest room, fueled by late nights, vision boards,
                 and a relentless desire to create something beautiful. The
-                brand's founder, a visionary with a deep love for fashion and
+                brand&apos;s founder, a visionary with a deep love for fashion and
                 women&apos;s empowerment, believed that every woman deserved to
                 feel like royalty, confident, graceful, and unforgettable.
               </p>
