@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import "../../styles/our-story.css";
 
 const OurStory = () => {
@@ -11,7 +12,7 @@ const OurStory = () => {
 
         <div className="our-story-content">
           <div className="our-story-img">
-            <img src="/-1121112909.jpg" alt="" className="ceo-img1" />
+            <Image src="/-1121112909.jpg" alt="" className="ceo-img1" />
             <p className="our-story-role">CEO and owner</p>
           </div>
 
@@ -67,7 +68,7 @@ const OurStory = () => {
           </div>
 
           <div className="our-story-img2">
-            <img src="/-452779597.jpg" alt="" className="ceo-img2" />
+            <Image src="/-452779597.jpg" alt="" className="ceo-img2" />
             <p className="our-story-role">CEO and owner</p>
           </div>
         </div>

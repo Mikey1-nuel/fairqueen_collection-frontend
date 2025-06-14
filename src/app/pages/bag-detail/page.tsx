@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { useState } from "react";
+import Image from "next/image";
 import "../../styles/bag-detail.css";
 
 const BagDetail = () => {
@@ -23,10 +24,11 @@ const BagDetail = () => {
   return (
     <main>
       <section className="detail-container">
-        <img
+        <Image
           src="/Screenshot_20250606_115627.jpg"
           alt=""
           width={500}
+          height={500}
           className="detail-img-wrapper"
         />
         <div className="detail-content">

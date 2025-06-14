@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import "../styles/hero.css";
-import Footer from "./footer";
 
 const Hero = () => {
   return (
@@ -30,7 +30,7 @@ const Hero = () => {
 
       <section className="welcome">
         <div className="welcome-back">
-          <img src="/ankara.jpg" alt="" width={350} className="welcome-img1" />
+          <Image src="/ankara.jpg" alt="" width={350} height={500} className="welcome-img1" />
           <div className="welcome-message">
             <p className="welcome-p">Welcome to Fair Collection!</p>
             <p className="welcome-subtext">
@@ -39,10 +39,11 @@ const Hero = () => {
               class because you deserve nothing less than extraordinary.
             </p>
           </div>
-          <img
+          <Image
             src="/sonia-tucker.jpg"
             alt=""
             width={300}
+            height={500}
             className="welcome-img2"
           />
         </div>
