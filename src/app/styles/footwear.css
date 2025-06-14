@@ -1,0 +1,382 @@
+.footwear-container {
+  background: #1a1a1a;
+  width: 100%;
+  margin: 0px;
+  padding: 200px 40px 200px 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.footwear-img-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 50px;
+}
+
+.footwear {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.footwear-img-wrapper {
+  overflow: hidden;
+}
+
+.footwear-img1 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_114626.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img2 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_114706.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img3 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120028.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img4 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120036.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img5 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120106.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img6 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120112.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img7 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120117.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img8 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120121.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img9 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120126.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img10 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120130.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img11 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120134.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img12 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120137.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img13 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120142.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img14 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120150.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img15 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120154.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img16 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120157.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img17 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120651.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img18 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120655.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img19 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120659.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img20 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120707.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img21 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120718.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img22 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120721.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img23 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120734.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img24 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120738.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img25 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120750.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-img26 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120753.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footwear-price {
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+@media (min-width: 981px) and (max-width: 1200px) {
+  .footwear-img-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 10px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 980px) {
+  .footwear-img-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 50px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .footwear-container {
+    padding: 150px 40px 100px 40px;
+  }
+
+  .footwear-img-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 50px;
+  }
+
+  .footwear-img1,
+  .footwear-img2,
+  .footwear-img3,
+  .footwear-img4,
+  .footwear-img5,
+  .footwear-img6,
+  .footwear-img7,
+  .footwear-img8,
+  .footwear-img9,
+  .footwear-img10,
+  .footwear-img11,
+  .footwear-img12,
+  .footwear-img13,
+  .footwear-img14,
+  .footwear-img15,
+  .footwear-img16,
+  .footwear-img17,
+  .footwear-img18,
+  .footwear-img19,
+  .footwear-img20,
+  .footwear-img21,
+  .footwear-img22,
+  .footwear-img23,
+  .footwear-img24,
+  .footwear-img25,
+  .footwear-img26 {
+    width: 250px;
+    height: 350px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 480px) {
+  .footwear-container {
+    padding: 150px 40px 100px 40px;
+  }
+
+  .footwear-img-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 50px;
+  }
+
+  .footwear-img1,
+  .footwear-img2,
+  .footwear-img3,
+  .footwear-img4,
+  .footwear-img5,
+  .footwear-img6,
+  .footwear-img7,
+  .footwear-img8,
+  .footwear-img9,
+  .footwear-img10,
+  .footwear-img11,
+  .footwear-img12,
+  .footwear-img13,
+  .footwear-img14,
+  .footwear-img15,
+  .footwear-img16,
+  .footwear-img17,
+  .footwear-img18,
+  .footwear-img19,
+  .footwear-img20,
+  .footwear-img21,
+  .footwear-img22,
+  .footwear-img23,
+  .footwear-img24,
+  .footwear-img25,
+  .footwear-img26 {
+    width: 250px;
+    height: 350px;
+  }
+}

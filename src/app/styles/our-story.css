@@ -1,0 +1,273 @@
+.header {
+  background-color: #fff;
+  background-image: linear-gradient(
+    112deg,
+    hsla(0, 0%, 88.7%, 0.16) 5%,
+    rgba(0, 0, 0, 0.3) 92%
+  );
+  background-position: 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 40px 100px 40px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #000;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Cinzel, sans-serif;
+  line-height: 1.1;
+  font-weight: 300;
+  letter-spacing: 0.313rem;
+}
+
+.our-story-content {
+  background: #1b1a1a;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  justify-content: flex-start;
+  padding: 100px 40px 100px 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.our-story-img,
+.our-story-img2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #d4af37;
+  border: 10px solid #d4af37;
+}
+
+.our-story-img2 {
+  align-self: flex-end;
+}
+
+.our-story-text h3 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #d4af37;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.our-story-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.our-story-role {
+  font-size: 1.1rem;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header h1 {
+    font-size: 2.5rem;
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Cinzel, sans-serif;
+    line-height: 1.1;
+    font-weight: 300;
+    letter-spacing: 0.313rem;
+  }
+
+  .our-story-content {
+    background: #1b1a1a;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    justify-content: flex-start;
+    padding: 100px 20px 100px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .our-story-img,
+  .our-story-img2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #d4af37;
+    border: 10px solid #d4af37;
+  }
+
+  .our-story-img1 .ceo-img1 {
+    width: 300px;
+    height: auto;
+  }
+
+  .our-story-img2 {
+    align-self: flex-end;
+    display: none;
+  }
+
+  .our-story-text {
+    width: 200%;
+  }
+
+  .our-story-text h3 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #d4af37;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  .our-story-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    font-size: 0.8rem;
+  }
+
+  .our-story-role {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .header h1 {
+    font-size: 2.5rem;
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Cinzel, sans-serif;
+    line-height: 1.1;
+    font-weight: 300;
+    letter-spacing: 0.313rem;
+  }
+
+  .our-story-content {
+    background: #1b1a1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    justify-content: flex-start;
+    padding: 100px 40px 100px 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .our-story-img,
+  .our-story-img2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #d4af37;
+    border: 10px solid #d4af37;
+    width: 500px;
+  }
+
+  .our-story-img2 {
+    align-self: flex-end;
+    display: none;
+  }
+
+  .our-story-text h3 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #d4af37;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  .our-story-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .our-story-role {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 480px) {
+  .header {
+    background-color: #fff;
+    background-image: linear-gradient(
+      112deg,
+      hsla(0, 0%, 88.7%, 0.16) 5%,
+      rgba(0, 0, 0, 0.3) 92%
+    );
+    background-position: 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 40px 40px 40px;
+  }
+
+  .header h1 {
+    font-size: 2.2rem;
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Cinzel, sans-serif;
+    line-height: 1.1;
+    font-weight: 300;
+    letter-spacing: 0.313rem;
+  }
+
+  .our-story-content {
+    background: #1b1a1a;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    justify-content: flex-start;
+    padding: 100px 40px 100px 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .our-story-img,
+  .our-story-img2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #d4af37;
+    border: 10px solid #d4af37;
+  }
+
+  .our-story-img2 {
+    align-self: flex-end;
+    display: none;
+  }
+
+  .our-story-text h3 {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #d4af37;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  .our-story-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .our-story-role {
+    font-size: 1.1rem;
+  }
+}

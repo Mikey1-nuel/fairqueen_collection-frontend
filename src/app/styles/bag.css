@@ -1,0 +1,212 @@
+.bag-container {
+  background: #1a1a1a;
+  width: 100%;
+  margin: 0px;
+  padding: 200px 40px 200px 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.bag-img-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 50px;
+}
+
+.bag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.bag-img-wrapper {
+  overflow: hidden;
+}
+
+.bag-img1 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_114510.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bag-img2 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_114731.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bag-img3 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_114736.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bag-img4 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_115627.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bag-img5 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_115818.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bag-img6 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_115837.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bag-price {
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+@media (min-width: 981px) and (max-width: 1200px) {
+   .bag-img-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 10px;
+  }
+
+  .bag-img1 {
+  width: 280px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_114510.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bag-img2 {
+  width: 280px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_114731.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bag-img3 {
+  width: 280px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_114736.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bag-img4 {
+  width: 280px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_115627.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bag-img5 {
+  width: 280px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_115818.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bag-img6 {
+  width: 300px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_115837.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+}
+
+@media (min-width: 769px) and (max-width: 980px) {
+  .bag-img-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 50px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .bag-container {
+    padding: 150px 40px 100px 40px;
+  }
+
+  .bag-img-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 50px;
+  }
+
+  .bag-img1,
+  .bag-img2,
+  .bag-img3,
+  .bag-img4,
+  .bag-img5,
+  .bag-img6 {
+    width: 250px;
+    height: 350px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 480px) {
+  .bag-img-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 50px;
+  }
+
+  .bag-img1,
+  .bag-img2,
+  .bag-img3,
+  .bag-img4,
+  .bag-img5,
+  .bag-img6 {
+    width: 250px;
+    height: 350px;
+  }
+}

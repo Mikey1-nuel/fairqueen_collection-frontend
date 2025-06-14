@@ -1,0 +1,370 @@
+.cloth-container {
+  background: #1a1a1a;
+  width: 100%;
+  margin: 0px;
+  padding: 200px 40px 200px 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  z-index: 100;
+}
+
+.cloth-img-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 50px;
+}
+
+.cloth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.cloth-img-wrapper {
+  overflow: hidden;
+}
+
+.cloth-img1 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_115721.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img2 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_114456.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img3 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_114559.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img4 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_114657.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img5 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_114753.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img6 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_115543.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img7 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_115602.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img8 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_115634.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img9 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_115640.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img10 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_115646.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img11 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_115655.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img12 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_115805.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img13 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_115944.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img14 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_115959.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img15 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120811.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img16 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120853.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img17 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120611.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img18 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120617.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img19 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120201.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img20 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120230.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img21 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120221.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img22 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120204.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img23 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot (16).png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img24 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot (17).png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img25 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120601.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img26 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot_20250606_120628.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img27 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot (12).png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img28 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot (13).png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img29 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot (14).png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloth-img30 {
+  width: 250px;
+  height: 450px;
+  background-image: url("/Screenshot (15).png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mob-img-size {
+  width: 250px;
+  height: 450px;
+}
+
+.cloth-price {
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+@media (min-width: 981px) and (max-width: 1200px) {
+    .cloth-img-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 10px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 980px) {
+  .cloth-img-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 50px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .cloth-container {
+    padding: 150px 40px 100px 40px;
+  }
+
+  .cloth-img-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 50px;
+  }
+
+  .mob-img-size {
+    width: 250px;
+    height: 350px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 480px) {
+  .cloth-img-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 50px;
+  }
+
+  .mob-img-size {
+    width: 250px;
+    height: 350px;
+  }
+}
